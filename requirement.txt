@@ -1,6 +1,6 @@
-streamlit
+altair
 pandas
-numpy
+streamlit
+sklearn
 matplotlib
 seaborn
-sklearn
