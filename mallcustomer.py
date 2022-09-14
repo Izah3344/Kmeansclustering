@@ -9,7 +9,6 @@ df = pd.read_csv('/content/mall_customer.csv')
 df.head()
 features = ['Annual_Income_(k$)', 'Spending_Score']
 X = df[features]
-X
 plt.scatter(X['Annual_Income_(k$)'], X['Spending_Score'],  );
 
 kmeans = KMeans(n_clusters=5)
