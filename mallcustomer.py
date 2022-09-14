@@ -1,12 +1,12 @@
-import pandas as pd # working with data
-import numpy as np # working with arrays
-import matplotlib.pyplot as plt # visualization
-import seaborn as sb # visualization
-from sklearn.cluster import KMeans # K-means algorithm
+import pandas as pd 
+import numpy as np 
+import matplotlib.pyplot as plt 
+import seaborn as sb 
+from sklearn.cluster import KMeans
 
+file = "mall_customer.csv"
+df = pd.read_csv(file)
 
-df = pd.read_csv('/content/mall_customer.csv')
-df.head()
 features = ['Annual_Income_(k$)', 'Spending_Score']
 X = df[features]
 plt.scatter(X['Annual_Income_(k$)'], X['Spending_Score'],  );
