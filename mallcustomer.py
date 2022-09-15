@@ -1,9 +1,15 @@
-import pandas as pd 
-import numpy as np 
-import matplotlib.pyplot as plt 
-import seaborn as sb 
-from sklearn.cluster import KMeans
+#import pandas as pd 
+#import numpy as np 
+#import matplotlib.pyplot as plt 
+#import seaborn as sb 
+#from sklearn.cluster import KMeans
 
+import streamlit as st
+import matplotlib.pyplot as plt
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn import datasets
+import plotly.tools
 file = "mall_customer.csv"
 df = pd.read_csv(file)
 
