@@ -1,5 +1,5 @@
 #Import Packages
-
+import matplotlib
 import pandas as pd # working with data
 import numpy as np # working with arrays
 import matplotlib.pyplot as plt # visualization
